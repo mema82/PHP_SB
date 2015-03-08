@@ -10,7 +10,7 @@
 	echo "<h1>Welcome to my first script!</h1>";
 	?>
 
-	<p>OR</p>
+
 
 	<h3><?php print "Hello Again"; ?></h3>
 
