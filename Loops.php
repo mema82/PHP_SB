@@ -9,7 +9,7 @@
 
 <?php //Working with Loops
 
-//While statement
+<H2>While statement</h2>
 
 $counter = 1;
 while ($counter <= 12) {
@@ -95,16 +95,19 @@ echo "</table>";
 <?php
 
 $display_prices = true;
+
 if ($display_prices) {
 	?>
-	<table border="1">
-		<tr><td colspan="3">today's prices in dollars</td>$71.00</td></tr>
-	</table>
 
-	<hr>
+	<table border="1">
+
+		<tr><td colspan="3">today's prices in dollars</td></tr>
+		<tr><td>$14.00</td><td>$32.00</td><td>$71.00</td></tr>
+	</table>
 
 	<?php
 }
+
 ?>
 
 </body>
